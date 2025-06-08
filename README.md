@@ -31,7 +31,23 @@ O município serve como modelo representativo para outras cidades da região met
 ## Pitch
 - **Pitch Video**: [YouTube](...)
 
+## FIAP: Global Solution
+A cada semestre desenvolvemos um projeto que integra todas as disciplinas do curso, com o objetivo de propor soluções para um tema de relevância global, promovido pela nossa instituição de ensino (FIAP).
+
+**Global Solution - Tema:** Prevenindo Eventos Extremos
+da Natureza por meio da Tecnologia
+
+O tema "Prevenindo Eventos Extremos da Natureza por meio da Tecnologia", proposto pelo projeto Global Solution da FIAP, convida os alunos a desenvolverem soluções inovadoras que utilizem tecnologia para enfrentar os desafios causados por fenômenos naturais intensos, como enchentes, terremotos, secas e ondas de calor. A proposta é transformar esses cenários críticos em oportunidades de inovação, aprendizado e impacto social, aplicando conhecimentos técnicos e criativos para proteger vidas, o meio ambiente e prevenir desastres ainda maiores.
+
+**Instituição de Ensino:** FIAP - Faculdade de Informática e Administração Paulista
+
+**Turma:** 2TDSPS
+
 ## Desenvolvedores
 - Felipe Matos - RM553528 - 2TDSPS
 - Leonardo de Oliveira - RM554024 - 2TDSPS
 - Sara Sousa - RM552656 - 2TDSPS
+
+---
+
+**WaterWise** © 2025 - Sistema Inteligente de Prevenção a Enchentes
