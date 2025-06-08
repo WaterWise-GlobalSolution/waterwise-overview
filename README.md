@@ -13,7 +13,7 @@ Fonte: [g1 - Por que a cidade de São Paulo não consegue evitar as enchentes fr
 ## 🌊 Visão Geral
 [Descrição completa do projeto]
 
-## 🏗️ Arquitetura do Sistema
+## 🏗️ Arquitetura de Aplicação Multi-tier
 [Diagrama da arquitetura completa]
 
 ## 📦 Repositórios por Disciplina
