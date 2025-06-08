@@ -11,7 +11,7 @@ O município serve como modelo representativo para outras cidades da região met
 ## 🏗Arquitetura de Solução End-to-End
 ![Modelo](images-readme/arquitetura-waterwise-overview.png)
 
-## Repositórios por Disciplina
+## Repositórios por Solução
 
 ### Backend & APIs
 - **[.NET API](https://github.com/WaterWise-GlobalSolution/waterwise-api-dotnet)** - API principal com ML.NET e RabbitMQ Producer
