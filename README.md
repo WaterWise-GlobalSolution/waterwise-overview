@@ -1,6 +1,6 @@
 # WaterWise - Sistema Inteligente de Prevenção a Enchentes
 
-A WaterWise é um ecossistema tecnológico integrado que previne enchentes urbanas através do monitoramento inteligente de propriedades rurais, baseado em Mairiporã-SP - município estrategicamente escolhido por sua localização na Serra da Cantareira e por enfrentar desafios típicos da transição entre áreas rurais e urbanas da Grande São Paulo. 
+A **WaterWise** é um ecossistema tecnológico integrado que previne enchentes urbanas através do monitoramento inteligente de propriedades rurais, baseado em Mairiporã-SP - município estrategicamente escolhido por sua localização na Serra da Cantareira e por enfrentar desafios típicos da transição entre áreas rurais e urbanas da Grande São Paulo. 
 
 Mairiporã apresenta características ideais para este projeto: possui extensas áreas rurais com propriedades agrícolas que impactam diretamente no ciclo hidrológico regional, está inserida em uma bacia hidrográfica importante para o abastecimento metropolitano, e enfrenta pressões de urbanização que tornam crítico o monitoramento da capacidade de retenção hídrica do solo. 
 
@@ -8,39 +8,30 @@ O município serve como modelo representativo para outras cidades da região met
 
 *"A enchente que alaga uma avenida pode começar com uma gota que o solo seco da zona rural não absorveu. Com WaterWise, cada metro de terra volta a ser uma esponja contra desastres."*
 
-Fonte: [g1 - Por que a cidade de São Paulo não consegue evitar as enchentes frequentes?](https://g1.globo.com/sp/sao-paulo/noticia/2020/02/10/por-que-a-cidade-de-sao-paulo-nao-consegue-evitar-as-enchentes-frequentes.ghtml)
+## 🏗Arquitetura de Solução End-to-End
+![Modelo](images-readme/arquitetura-waterwise-overview.png)
 
-## 🌊 Visão Geral
-[Descrição completa do projeto]
+## Repositórios por Disciplina
 
-## 🏗️ Arquitetura de Aplicação Multi-tier
-[Diagrama da arquitetura completa]
+### Backend & APIs
+- **[.NET API](https://github.com/WaterWise-GlobalSolution/waterwise-api-dotnet)** - API principal com ML.NET e RabbitMQ Producer
+- **[Java Admin](https://github.com/WaterWise-GlobalSolution/waterwise-java-spring-mvc)** - Portal administrativo Spring Boot MVC e RabbitMQ Consumer
 
-## 📦 Repositórios por Disciplina
+### Frontend & Mobile  
+- **[Mobile App](https://github.com/WaterWise-GlobalSolution/waterwise-mobile-react)** - App Mobile com React Native
 
-### 🔧 Backend & APIs
-- **[.NET API](https://github.com/WaterWise-FIAP-2025/waterwise-api-dotnet)** - API principal com ML.NET
-- **[Java Admin](https://github.com/WaterWise-FIAP-2025/waterwise-admin-java)** - Portal administrativo Spring Boot
+### IoT & Hardware
+- **[IoT Sensors](https://github.com/WaterWise-GlobalSolution/waterwise-iot_ia)** - ESP32 + sensores
+- **[IoT Sensors](https://github.com/WaterWise-GlobalSolution/waterwise_conexao_iot_db)** - Simulator + Python API + Persistência Oracle DB + Dashboards
 
-### 📱 Frontend & Mobile  
-- **[Mobile App](https://github.com/WaterWise-FIAP-2025/waterwise-mobile-react)** - App React Native
+### 🗄Data & Infrastructure
+- **[Database](https://github.com/WaterWise-GlobalSolution/waterwise-database)** - Oracle DB + MongoDB
+- **[Cloud Deploy](https://github.com/WaterWise-GlobalSolution/waterwise-devops)** - Azure WebApp + Azure SQL Database
 
-### 🤖 IoT & Hardware
-- **[IoT Sensors](https://github.com/WaterWise-FIAP-2025/waterwise-iot-sensors)** - ESP32 + sensores
-
-### 🗄️ Data & Infrastructure
-- **[Database](https://github.com/WaterWise-FIAP-2025/waterwise-database-oracle)** - Oracle + MongoDB
-- **[Cloud Deploy](https://github.com/WaterWise-FIAP-2025/waterwise-cloud-azure)** - Azure infrastructure
-
-### ✅ Quality & Process
-- **[SCRUM & Tests](https://github.com/WaterWise-FIAP-2025/waterwise-scrum-docs)** - Documentação QA
-
-## 🎯 Links Importantes
+## Pitch
 - **Pitch Video**: [YouTube](...)
-- **Demo Live**: [Azure](...)
-- **Documentation**: [Wiki](...)
 
-## 👥 Equipe
+## Desenvolvedores
 - Felipe Matos - RM553528 - 2TDSPS
 - Leonardo de Oliveira - RM554024 - 2TDSPS
 - Sara Sousa - RM552656 - 2TDSPS
