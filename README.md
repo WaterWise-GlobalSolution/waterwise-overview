@@ -29,7 +29,9 @@ O município serve como modelo representativo para outras cidades da região met
 - **[Cloud Deploy](https://github.com/WaterWise-GlobalSolution/waterwise-devops)** - Azure WebApp + Azure SQL Database
 
 ## Pitch
-- **Pitch Video**: [YouTube](...)
+- **Pitch Video**:
+
+[Clique aqui](https://www.youtube.com/watch?v=hXPDFcBu9gs)
 
 ## FIAP: Global Solution
 A cada semestre desenvolvemos um projeto que integra todas as disciplinas do curso, com o objetivo de propor soluções para um tema de relevância global, promovido pela nossa instituição de ensino (FIAP).
